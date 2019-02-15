@@ -11,7 +11,9 @@ public class BeerSong {
             word = "бутылка";
         }
 
-        System.out.println(beerNum + " " + word + " пива на стене");
+       if (beerNum == 99) {
+            System.out.println(beerNum + " " + word + " пива на стене");
+        }
         System.out.println(beerNum + " " + word + " пива.");
         System.out.println("Возьми одну.");
         System.out.println("Пусти по кругу.");
